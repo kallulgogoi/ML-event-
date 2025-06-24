@@ -24,7 +24,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_002",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-05-18T10:00:00+05:30",
@@ -47,7 +47,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_003",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-05-18T10:00:00+05:30",
@@ -70,7 +70,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_004",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-05-18T10:00:00+05:30",
@@ -93,7 +93,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_005",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-06-18T10:00:00+05:30",
@@ -116,7 +116,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_006",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-06-18T10:00:00+05:30",
@@ -139,7 +139,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_007",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-06-18T10:00:00+05:30",
@@ -162,7 +162,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_008",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-06-18T10:00:00+05:30",
@@ -185,7 +185,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_HACK_2024_001",
+			"event_id": "NITS_ML_HACK_2024_009",
 			"event_name": "NeuralNet Hackathon",
 			"event_description": "24-hour ML hackathon focusing on deep learning challenges. Organized by NIT Silchar ML Club.",
 			"event_start_datetime": "2025-06-18T10:00:00+05:30",
@@ -208,7 +208,7 @@
 			"post_event_task": "Submit your Colab notebooks to mlclub@nits.ac.in by May 25th."
 		},
 		{
-			"event_id": "NITS_ML_WORKSHOP_2024_002",
+			"event_id": "NITS_ML_WORKSHOP_2024_010",
 			"event_name": "LLMs for Beginners",
 			"event_description": "Hands-on workshop on Large Language Models (LLMs) using HuggingFace. No prior experience required.",
 			"event_start_datetime": "2024-06-05T14:00:00+05:30",
@@ -220,7 +220,7 @@
 			"post_event_task": "Complete the HuggingFace tutorial and share your model link."
 		},
 		{
-			"event_id": "NITS_ML_GUEST_2024_003",
+			"event_id": "NITS_ML_GUEST_2024_011",
 			"event_name": "Industry Talk: AI in Healthcare",
 			"event_description": "Guest lecture by Dr. Ananya Sharma (AI Researcher at AIIMS) on applications of ML in medical diagnostics.",
 			"event_start_datetime": "2024-04-20T15:00:00+05:30",
@@ -232,7 +232,7 @@
 			"post_event_task": "Submit questions for the speaker in advance."
 		},
 		{
-			"event_id": "NITS_KAGGLE_2024_004",
+			"event_id": "NITS_KAGGLE_2024_012",
 			"event_name": "Kaggle Week",
 			"event_description": "7-day Kaggle competition hosted by ML Club. Top 3 winners get internship referrals.",
 			"event_start_datetime": "2025-06-20T00:00:00+05:30",
@@ -251,11 +251,11 @@
 			"post_event_task": "Publish your Kaggle notebook publicly."
 		},
 		{
-			"event_id": "NITS_ML_BOOTCAMP_2024_005",
+			"event_id": "NITS_ML_BOOTCAMP_2024_013",
 			"event_name": "30-Day ML Bootcamp",
 			"event_description": "Daily sessions covering Python, Scikit-learn, and TensorFlow. Final project evaluation on Day 30.",
 			"event_start_datetime": "2025-08-01T18:00:00+05:30",
-			"event_end_datetime": "205-08-30T20:00:00+05:30",
+			"event_end_datetime": "2025-08-30T20:00:00+05:30",
 			"venue": "G307, CSE Department, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
@@ -274,11 +274,11 @@
 			"post_event_task": "Submit your capstone project GitHub repo."
 		},
 		{
-			"event_id": "NITS_ML_BOOTCAMP_2024_005",
+			"event_id": "NITS_ML_BOOTCAMP_2024_014",
 			"event_name": "30-Day ML Bootcamp",
 			"event_description": "Daily sessions covering Python, Scikit-learn, and TensorFlow. Final project evaluation on Day 30.",
 			"event_start_datetime": "2025-08-01T18:00:00+05:30",
-			"event_end_datetime": "205-08-30T20:00:00+05:30",
+			"event_end_datetime": "2025-08-30T20:00:00+05:30",
 			"venue": "G307, CSE Department, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
@@ -297,11 +297,11 @@
 			"post_event_task": "Submit your capstone project GitHub repo."
 		},
 		{
-			"event_id": "NITS_ML_BOOTCAMP_2024_005",
+			"event_id": "NITS_ML_BOOTCAMP_2024_015",
 			"event_name": "30-Day ML Bootcamp",
 			"event_description": "Daily sessions covering Python, Scikit-learn, and TensorFlow. Final project evaluation on Day 30.",
 			"event_start_datetime": "2025-08-01T18:00:00+05:30",
-			"event_end_datetime": "205-08-30T20:00:00+05:30",
+			"event_end_datetime": "2025-08-30T20:00:00+05:30",
 			"venue": "G307, CSE Department, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
@@ -320,11 +320,11 @@
 			"post_event_task": "Submit your capstone project GitHub repo."
 		},
 		{
-			"event_id": "NITS_ML_BOOTCAMP_2024_005",
+			"event_id": "NITS_ML_BOOTCAMP_2024_016",
 			"event_name": "30-Day ML Bootcamp",
 			"event_description": "Daily sessions covering Python, Scikit-learn, and TensorFlow. Final project evaluation on Day 30.",
 			"event_start_datetime": "2025-08-01T18:00:00+05:30",
-			"event_end_datetime": "205-08-30T20:00:00+05:30",
+			"event_end_datetime": "2025-08-30T20:00:00+05:30",
 			"venue": "G307, CSE Department, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
@@ -343,11 +343,11 @@
 			"post_event_task": "Submit your capstone project GitHub repo."
 		},
 		{
-			"event_id": "NITS_ML_BOOTCAMP_2024_005",
+			"event_id": "NITS_ML_BOOTCAMP_2024_017",
 			"event_name": "30-Day ML Bootcamp",
 			"event_description": "Daily sessions covering Python, Scikit-learn, and TensorFlow. Final project evaluation on Day 30.",
 			"event_start_datetime": "2025-08-01T18:00:00+05:30",
-			"event_end_datetime": "205-08-30T20:00:00+05:30",
+			"event_end_datetime": "2025-08-30T20:00:00+05:30",
 			"venue": "G307, CSE Department, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
