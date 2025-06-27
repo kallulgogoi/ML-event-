@@ -13,7 +13,6 @@
 		name: string;
 	}
 
-	// Union type: event can have either team-based or participant-based leaderboard
 	type LeaderboardEntry = TeamEntry | ParticipantEntry;
 
 	interface Event {
@@ -35,13 +34,25 @@
 	const now = new Date();
 
 	const upcomingEvents = events.filter((event) => new Date(event.event_start_datetime) > now);
-
 	const ongoingEvents = events.filter(
 		(event) =>
 			new Date(event.event_start_datetime) <= now && new Date(event.event_end_datetime) >= now
 	);
-
 	const pastEvents = events.filter((event) => new Date(event.event_end_datetime) < now);
+
+	// Touch event handlers for horizontal scrolling
+	function handleTouchStart(e: TouchEvent) {
+		const element = e.currentTarget as HTMLElement;
+		element.dataset.startX = e.touches[0].clientX.toString();
+		element.dataset.scrollLeft = element.scrollLeft.toString();
+	}
+
+	function handleTouchMove(e: TouchEvent) {
+		const element = e.currentTarget as HTMLElement;
+		if (!element.dataset.startX) return;
+		const xDiff = parseInt(element.dataset.startX) - e.touches[0].clientX;
+		element.scrollLeft = parseInt(element.dataset.scrollLeft || '0') + xDiff;
+	}
 </script>
 
 <div class="min-h-screen bg-[#121212] px-4 py-12 text-[#C7C7C7] sm:px-6 lg:px-8">
@@ -60,10 +71,14 @@
 				</h2>
 			</div>
 
-			<div class="relative">
-				<div class="no-scrollbar flex space-x-8 overflow-x-auto pb-4">
+			<div class="relative w-full">
+				<div
+					class="no-scrollbar flex touch-pan-x snap-x snap-mandatory gap-8 overflow-x-auto pb-4"
+					on:touchstart={handleTouchStart}
+					on:touchmove={handleTouchMove}
+				>
 					{#each ongoingEvents as event}
-						<div class="flex-shrink-0" style="width: 320px">
+						<div class="w-80 flex-shrink-0 snap-start">
 							<div
 								class="h-full transform overflow-hidden rounded-xl bg-gray-800 shadow-lg transition transition-shadow hover:-translate-y-1 hover:shadow-xl"
 							>
@@ -151,10 +166,14 @@
 				<h2 class="text-2xl font-bold">Upcoming Events</h2>
 			</div>
 
-			<div class="relative">
-				<div class="no-scrollbar flex space-x-8 overflow-x-auto pb-4">
+			<div class="relative w-full">
+				<div
+					class="no-scrollbar flex touch-pan-x snap-x snap-mandatory gap-8 overflow-x-auto pb-4"
+					on:touchstart={handleTouchStart}
+					on:touchmove={handleTouchMove}
+				>
 					{#each upcomingEvents as event}
-						<div class="flex-shrink-0" style="width: 320px">
+						<div class="w-80 flex-shrink-0 snap-start">
 							<div
 								class="h-full transform overflow-hidden rounded-xl bg-gray-800 shadow-lg transition transition-shadow hover:-translate-y-1 hover:shadow-xl"
 							>
@@ -237,10 +256,14 @@
 				<h2 class="text-2xl font-bold">Past Events</h2>
 			</div>
 
-			<div class="relative">
-				<div class="no-scrollbar flex space-x-8 overflow-x-auto pb-4">
+			<div class="relative w-full">
+				<div
+					class="no-scrollbar flex touch-pan-x snap-x snap-mandatory gap-8 overflow-x-auto pb-4"
+					on:touchstart={handleTouchStart}
+					on:touchmove={handleTouchMove}
+				>
 					{#each pastEvents as event}
-						<div class="flex-shrink-0" style="width: 320px">
+						<div class="w-80 flex-shrink-0 snap-start">
 							<div
 								class="h-full transform overflow-hidden rounded-xl bg-gray-800 opacity-80 shadow-lg transition transition-shadow hover:-translate-y-1 hover:opacity-100 hover:shadow-xl"
 							>
@@ -330,5 +353,23 @@
 	.no-scrollbar {
 		-ms-overflow-style: none;
 		scrollbar-width: none;
+	}
+
+	.no-scrollbar {
+		-webkit-overflow-scrolling: touch;
+	}
+
+	/* Snap scrolling behavior */
+	.snap-x {
+		scroll-snap-type: x mandatory;
+	}
+
+	.snap-start {
+		scroll-snap-align: start;
+	}
+
+	/* Smooth scrolling */
+	.touch-pan-x {
+		scroll-behavior: smooth;
 	}
 </style>
