@@ -146,7 +146,7 @@
 			"event_name": "Coding Challenge",
 			"event_description": "Weekly competitive programming contest.",
 			"event_start_datetime": "2025-06-24T18:00:00+05:30",
-			"event_end_datetime": "2025-06-24T21:00:00+05:30",
+			"event_end_datetime": "2025-08-24T21:00:00+05:30",
 			"venue": "Online",
 			"poster_image": "poster.jpg",
 			"leaderboard": [
@@ -163,7 +163,7 @@
 			"event_name": "Tech Exhibition",
 			"event_description": "Showcase of student projects and innovations.",
 			"event_start_datetime": "2025-06-25T10:00:00+05:30",
-			"event_end_datetime": "2025-06-27T18:00:00+05:30",
+			"event_end_datetime": "2025-08-27T18:00:00+05:30",
 			"venue": "Main Building, NIT Silchar",
 			"poster_image": "poster.jpg",
 			"leaderboard": [],
